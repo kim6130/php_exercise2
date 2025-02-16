@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/Untitled design.png'); /* Use your own image here */
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color:black;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #FFD700; /* Gold color for headings */
+}
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sorted-list-container,
+.updated-list-container {
+    background-color: rgba(133, 20, 67, 0.1); /* Light background for list containers */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%; /* Adjust width to fit two columns */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
